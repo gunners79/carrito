@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: azure;
+}
+/*-----------  Productos  -----------*/
+.App{
+  max-width: 1550px;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  box-shadow: 0 5px 6px #08a05ca4;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+/*-----------  Productos  -----------*/
+.container{
+  padding: 5rem 2rem;
+  margin: 0auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr));
+}
+.producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 1px 10px 10px 2px rgba(0, 0, 0, .2);
+  border: 6px solid transparent;
+  border-radius: 5px;
+}
+.producto:hover{
+  border: 6px solid #08a05c55;
+}
+.producto_img img{
+  width: 310px;
+}
+.producto_footer{
+  padding: 1rem;
+}
+.producto_footer h1{
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #1a202c;
+  font-family: Helvetica, sans-serif;
+}
+.price{
+  font-weight: 700;
+  color: rgba(0, 0, 0, .555);
+  text-transform: uppercase;
+  font-size: 2rem;
+  color: #1a202c;
+}
+.producto .button{
+  width: 11%;
+  height: 30px;
+  display: grid;
+  border: none;
+  outline: 0;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: white;
+  background-color: aqua;
+  text-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 5px;
+  text-shadow: -2px -2px 1px #3eb967
+}
+
+
+/*-----------  Nav  -----------*/
+
+
+
+
+/*-----------  media Query  -----------*/
+@media only screen and (min-width: 768px){
+    header{
+        width: 97%;
+        min-height: 100px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        position: fixed !important;
+        box-sizing: border-box;
+        background-color: azure;
+        box-shadow: 0 5px 10px #08a05c50;
+        z-index: 20;
+
+    }
+    nav ul{
+        width: 350px;
+        height: 25px;
+    
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        right: 100px;
+        position: absolute;
+        list-style: none;
+    }
+
+    .logo{
+      size: 40px; 
+      position: absolute;
+      left: 70px;
+      top: 10px;
+     }
+     .logo:hover{
+      color: blueviolet;
+     }
+    
+
+     nav ul li a{
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      font-size: 25px;
+      color: rgb(19, 16, 238);
+      text-decoration:none;
+     }
+      nav ul li a:hover{
+      color: rgb(152, 195, 235);
+    }
+
+
+}
+/*-----------  Slide  -----------*/
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    width: 830px;
+    height: 500px;
+    border-radius: 10px;
+  }
+  
+  .right-arrow {
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .left-arrow {
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+  }
+  
+  .slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+    transform: scale(1.08);
+  }
+  /*-----------  carrito  -----------*/
+  .carrito h4{
+    font-size: 20px;
+  }
+  .carrito h5{
+    font-size: 18px;
+  }
+
+
+
+
+
+
+
+
+
+
+  /*-----------  HEADER  -----------*/
+/*-----------  width: 100%;
+        height: 100px;
+
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;  -----------*/

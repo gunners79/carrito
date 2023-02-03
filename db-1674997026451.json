@@ -1,0 +1,53 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "nombre": "Producto A",
+      "precio": 2000,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png'"
+    },
+    {
+      "id": 2,
+      "nombre": "Producto B",
+      "precio": 3500,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png"
+    },
+    {
+      "id": 3,
+      "nombre": "Producto C",
+      "precio": 2800,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png"
+    },
+    {
+      "id": 4,
+      "nombre": "Producto D",
+      "precio": 4100,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png"
+    },
+    {
+      "id": 5,
+      "nombre": "Producto E",
+      "precio": 2800,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png"
+    },
+    {
+      "id": 6,
+      "nombre": "Producto F",
+      "precio": 1600,
+      "cantidad": 1,
+      "src": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/312/744/products/srdtfyguhijokpln1-06924e2271097aa2e616722656183949-1024-1024.png"
+    }
+  ],
+  "carrito": [],
+  "logo": [
+    {
+      "nombre": "logo",
+      "src": "https://i.pinimg.com/originals/17/cd/72/17cd72c998ea51d769e73c03eb2a9005.png"
+    }
+  ]
+}
